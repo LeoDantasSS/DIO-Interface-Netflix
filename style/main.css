@@ -13,7 +13,7 @@
 
 body {
   background: var(--preta);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Netflix Sans Regular', Times, serif;
   color: white;
 }
 
@@ -33,7 +33,7 @@ header .logo {
   margin-left: 30px;
   margin-right: 25px;
   color: var(--vermelho);
-  font-family: 'Arial Black', Times;
+  font-family: 'Netflix Sans Black';
   font-size: 35px;
 }
 
@@ -77,9 +77,10 @@ header nav a:hover {
 .title {
   margin-top: 15%;
   font-size: 40px;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'Netflix Sans Regular', Times, sans-serif;
 }
 
+/* ### BUTTONS ### */
 .button-one,
 .button-two {
   padding: 15px 30px;
