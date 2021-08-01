@@ -30,11 +30,14 @@ header .container a {
 }
 
 header .logo {
-  margin-left: 30px;
   margin-right: 25px;
   color: var(--vermelho);
   font-family: 'Netflix Sans Black';
   font-size: 35px;
+}
+
+header .logo span {
+  color: white;
 }
 
 header nav a {
@@ -64,7 +67,7 @@ header nav a:hover {
 
 .main-movie:hover {
   background: url('/assets/img/Gif-fight.gif');
-  transition: 3.5s;
+  transition-delay: 3.5s;
 
   background-size: cover;
 }
@@ -113,4 +116,19 @@ header nav a:hover {
 .button-two i {
   margin-right: 8px;
   font-size: 15px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.main-movie .container {
+  width: 70%;
+}
+
+/* ### CAROUSEL MOVIE ### */
+.box-movie {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
