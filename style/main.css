@@ -1,8 +1,9 @@
 /* ### RESET CSS ### */
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 /* ### VARIABLES ### */
@@ -54,7 +55,7 @@ header nav a:hover {
 .main-movie {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url('/assets/img/boruto.jpg');
+    url('/assets/img/imagem-fundo.jpg');
 
   height: 400px;
   background-size: cover;
@@ -66,11 +67,19 @@ header nav a:hover {
 }
 
 .main-movie:hover {
-  background: url('/assets/img/Gif-fight.gif');
+  background: url('/assets/img/peaky-blinders.gif');
   transition-delay: 3.5s;
 
   background-size: contain;
   background-size: 100% 100%;
+}
+
+.main-movie .container {
+  width: 70%;
+}
+
+.container {
+  margin-left: 20px;
 }
 
 .main-movie .description {
@@ -80,6 +89,12 @@ header nav a:hover {
 
 .title {
   margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Netflix Sans Regular', Times, sans-serif;
+}
+
+.subtitle {
+  margin-left: 12px;
   font-size: 40px;
   font-family: 'Netflix Sans Regular', Times, sans-serif;
 }
@@ -119,14 +134,6 @@ header nav a:hover {
   font-size: 15px;
 }
 
-.container {
-  margin-left: 20px;
-}
-
-.main-movie .container {
-  width: 70%;
-}
-
 /* ### CAROUSEL MOVIE ### */
 .box-movie {
   height: 100%;
@@ -147,4 +154,90 @@ header nav a:hover {
 .carousel-movie {
   margin-top: 8px;
   padding: 1%;
+}
+
+/* ### FOOTER ### */
+.contact img {
+  align-items: center;
+  width: 40px;
+}
+
+/* ### RESPONSIVE ### */
+@media screen and (max-width: 630px) {
+  .description {
+    display: none;
+  }
+
+  header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  }
+
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-movie {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+      url('/assets/img/imagem-fundo.jpg');
+
+    background-size: contain;
+    background-size: 100% 100%;
+  }
+
+  .main-movie:hover {
+    background: url('/assets/img/peaky-blinders.gif');
+    transition-delay: 3.5s;
+
+    background-size: contain;
+    background-size: 100% 100%;
+
+    text-decoration-color: black;
+  }
+
+  .button-one,
+  .button-two {
+    margin-top: 5px;
+    width: 190px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .main-movie {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+      url('/assets/img/imagem-fundo.jpg');
+
+    height: 600px;
+    background-size: contain;
+    background-size: 100% 100%;
+  }
+
+  .main-movie:hover {
+    background: url('/assets/img/peaky-blinders.gif');
+    transition-delay: 3.5s;
+
+    background-size: contain;
+    background-size: 100% 100%;
+
+    text-decoration-color: black;
+  }
+
+  .title {
+    font-size: 40px;
+    font-family: 'Netflix Sans Regular', Times, sans-serif;
+  }
+
+  .main-movie .container {
+    width: 100%;
+  }
+
+  .description {
+    width: 40%;
+  }
 }
