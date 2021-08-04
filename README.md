@@ -6,13 +6,15 @@
 
 <h1 align="center"> Clone de Interface do Netflix </h1>
 
-<nav align="center">
+<div align="center">
+<nav>
           <a href="#Technologies">Tecnologias |</a>
           <a href="#library">Bibliotecas |</a>
           <a href="#Project">Projeto |</a>
           <a href="#knowledge">Conhecimentos</a>
         </nav>
-
+</div>
+          
 <br>
 <br>
 
@@ -45,4 +47,4 @@ Esse projeto foi baseado na interface do principal site de streaming mundial(Net
 
 <h2 id="knowledge"> Conhecimentos </h2>
 
-Nesse projeto foi desenvolvido conhecimentos relativos a como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.
+Nesse projeto foi desenvolvido conhecimentos relativos a como estruturar um layout, técnicas de CSS3 com containers, variáveis e responsividade, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.
