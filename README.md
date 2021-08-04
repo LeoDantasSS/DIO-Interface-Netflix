@@ -43,6 +43,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <h2 id="Project"> Projeto </h2>
 
 Esse projeto foi baseado na interface do principal site de streaming mundial(Netflix) utilizando tecnologias simples como HTML5, CSS3 e JavaScript.
+
+Foi desenvolvido na plataforma <a href="https://web.digitalinnovation.one">Digital Innovation One</a>.
+  <br>
 <br>
 
 <h2 id="knowledge"> Conhecimentos </h2>
