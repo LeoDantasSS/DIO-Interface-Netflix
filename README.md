@@ -1,3 +1,14 @@
+<div align="center">
+          <nav>
+          <a href="#Technologies">Tecnologias </a>|
+          <a href="#library">Bibliotecas </a>|
+          <a href="#Project">Projeto </a>|
+          <a href="#knowledge">Conhecimentos</a>
+          </nav>
+</div>
+
+<br>
+
 <div align="center" >
 <img align="center" width="20%" src="./assets/Git/logo.JPG" alt="Gif responsividade">
 </div>
@@ -5,15 +16,6 @@
 <br>
 
 <h1 align="center"> Clone de Interface do Netflix </h1>
-
-<div align="center">
-          <nav>
-          <a href="#Technologies">Tecnologias |</a>
-          <a href="#library">Bibliotecas |</a>
-          <a href="#Project">Projeto |</a>
-          <a href="#knowledge">Conhecimentos</a>
-          </nav>
-</div>
           
 <br>
 <br>
