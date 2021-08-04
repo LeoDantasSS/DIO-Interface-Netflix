@@ -50,4 +50,4 @@ Foi desenvolvido na plataforma <a href="https://web.digitalinnovation.one">Digit
 
 <h2 id="knowledge"> Conhecimentos </h2>
 
-Nesse projeto foi desenvolvido conhecimentos relativos a como estruturar um layout, técnicas de CSS3 com containers, variáveis e responsividade, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.
+Nesse projeto foi desenvolvido conhecimentos relativos a como estruturar um layout, técnicas de CSS3 com containers, variáveis e responsividade, como posicionar os elementos com Flexbox e como utilizar plugins Jquery.
