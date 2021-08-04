@@ -213,7 +213,7 @@ header nav a:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
       url('/assets/img/imagem-fundo.jpg');
 
-    height: 650px;
+    height: 40rem;
     background-size: contain;
     background-size: 100% 100%;
   }
@@ -231,11 +231,7 @@ header nav a:hover {
     font-family: 'Netflix Sans Regular', Times, sans-serif;
   }
 
-  .main-movie .container {
-    width: 100%;
-  }
-
   .description {
-    width: 40%;
+    width: 50%;
   }
 }
