@@ -7,20 +7,20 @@
 <h1 align="center"> Clone de Interface do Netflix </h1>
 
 <div align="center">
-<nav>
+          <nav>
           <a href="#Technologies">Tecnologias |</a>
           <a href="#library">Bibliotecas |</a>
           <a href="#Project">Projeto |</a>
           <a href="#knowledge">Conhecimentos</a>
-        </nav>
+          </nav>
 </div>
           
 <br>
 <br>
 
 <div align="center" >
-<img src="./assets/Git/gif-web.gif" alt="demo-web" height="320">
-<img src="./assets/Git/gif-mobile.gif" alt="demo-mobile" height="320">
+<img src="./assets/Git/gif-web.gif" alt="demo-web" height="300">
+<img src="./assets/Git/gif-mobile.gif" alt="demo-mobile" height="300">
 </div>
 
 <br>
